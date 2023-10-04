@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types'
 
 export const PrimerComponente = ({titulo, subtitulo = 'Sección de props'}) => {
-    console.log(titulo);
+    // console.log(titulo);
   return (
     <>
         <h1>{titulo}</h1>
